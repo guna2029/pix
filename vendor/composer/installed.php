@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'qrcode/pix',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'mpdf/qrcode' => array(
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'bfc8215c6fbb6320217d0980cecdfc85b0f98f27',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mpdf/qrcode',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v9.99.99',
+            'version' => '9.99.99.0',
+            'reference' => '84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'qrcode/pix' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
